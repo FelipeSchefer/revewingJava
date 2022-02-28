@@ -101,7 +101,11 @@ public class Livro implements Publicação {
 
 	@Override
 	public void avançarPag() {
-		this.paginaAtual++;
+		if(this.aberto == true && this.totPaginas > this.paginaAtual) {
+			this.paginaAtual++;			
+		}else {
+			this.paginaAtual = 0;
+		}
 	}
 
 	@Override
