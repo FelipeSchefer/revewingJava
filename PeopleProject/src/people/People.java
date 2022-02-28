@@ -1,6 +1,6 @@
 package people;
 
-class People {
+public abstract class People {
 	private String name;
 	private int age;
 	private String sex;
@@ -41,9 +41,4 @@ class People {
 			     + ",\n sex=" + sex 
 				 + "]\n--------------------------------------";
 	}
-	
-	
-	
-	
-	
 }

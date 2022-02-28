@@ -1,10 +1,10 @@
 package people;
 
-public class Teacher extends People {
+public final class Teacher extends People {
 	private String subject;
 	private double salary;
 	
-	public void promotion(float promotion) {
+	public final void promotion(float promotion) {
 		this.salary += promotion;
 	}
 	

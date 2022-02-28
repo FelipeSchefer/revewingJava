@@ -1,10 +1,10 @@
 package people;
 
-public class Worker extends People {
+public final class Worker extends People {
 	private String section;
 	private boolean working;
 	
-	public void changingWork() {
+	public final void changingWork() {
 		System.out.println("Not working \n");
 		this.working = !this.working;
 	}

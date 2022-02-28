@@ -5,8 +5,12 @@ public class Student extends People {
 	private String course;
 	
 	public void unsubscribe() {
-		System.out.print("Enroll is cancelled \n");
+		System.out.print("Enroll is cancelled. \n");
 		this.setCourse("empty");
+	}
+	
+	public void payTuition() {
+		System.out.println("Student: "+ this.getName() +" is paying the tuition. \n");
 	}
 
 	public int getEnroll() {
