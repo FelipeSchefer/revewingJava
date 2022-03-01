@@ -32,6 +32,7 @@ public class Main {
 		
 		view[0] = new View(s[0], v[0]); 
 		view[0].estimate();
+
 		System.out.println(view[0].toString());
 		
 		view[1] = new View(s[1], v[1]);
