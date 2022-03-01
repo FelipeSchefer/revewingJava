@@ -1,9 +1,9 @@
 package animals;
 
 public abstract class Animal{
-	private double weight;
-	private int age;
-	private int members;
+	protected double weight;
+	protected int age;
+	protected int members;
 	
 	public abstract void move();
 	public abstract void feed();
