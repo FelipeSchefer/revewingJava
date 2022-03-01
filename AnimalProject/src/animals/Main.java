@@ -1,5 +1,6 @@
 package animals;
 
+import species.Dog;
 import species.Kangoro;
 
 public class Main {
@@ -19,6 +20,17 @@ public class Main {
 		k.move();
 		k.feed();
 		k.makeNoise();
+
+		System.out.println("-----------------------------------");
+		
+		Dog d = new Dog();
+//		d.react("food time");
+//		d.react(19,05);
+//		d.react(false);
+		d.react(4, 11.0f);
+		
+		
+		
 	}
 
 }

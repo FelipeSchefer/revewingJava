@@ -1,8 +1,9 @@
 package species;
 
-import animals.Fish;
+import animals.Memmal;
 
-public class Goldfish extends Fish{
+public class Wolf extends Memmal{
+	
 	@Override
 	public void move() {
 		System.out.println("It runs");
@@ -15,7 +16,7 @@ public class Goldfish extends Fish{
 	
 	@Override
 	public void makeNoise() {
-		System.out.println("it makes barks noises");
+		System.out.println("it makes howl noises (auuuuuuuu!)");
 	}
 
 
